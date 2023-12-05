@@ -18,6 +18,7 @@ import { SkillsComponent } from 'src/Components/skills/skills.component';
 import { MatCardActions, MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import {MatGridListModule} from '@angular/material/grid-list';
+import {MatChipsModule} from '@angular/material/chips';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
     FormsModule,
     MatCardModule,
     MatIconModule,
-    MatGridListModule
+    MatGridListModule,
+    MatChipsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

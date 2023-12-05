@@ -1,25 +1,29 @@
 
-<section  id="contact" class="contact">
-    <div class="contact-content" style="background-color: cadetblue;">
-      <div class="contact-heading" >
-        <h2 style="color: white;">Contact Us</h2>
-        <p style="color: white;">If you have any questions or inquiries, feel free to reach out to us.</p>
-      </div>
-      <div class="contact-form">
-        <h2 >Contact Form</h2>
-        <form (submit)="submitForm()">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required [(ngModel)]="formData.name">
-  
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required [(ngModel)]="formData.email">
-  
-          <label for="message">Message:</label>
-          <textarea id="message" name="message" required [(ngModel)]="formData.message"></textarea>
-  
-          <button type="submit">Send</button>
-        </form>
-      </div>
-    </div>
-  </section>
-  
+<section class="get-in-touch">
+  <h3 class="title">Get in touch</h3>
+  <form class="contact-form row">
+     <div class="form-field col-lg-6">
+        <input id="name" class="input-text js-input" type="text" required>
+        <label class="label" for="name">Name</label>
+     </div>
+     <div class="form-field col-lg-6 ">
+        <input id="email" class="input-text js-input" type="email" required>
+        <label class="label" for="email">E-mail</label>
+     </div>
+     <div class="form-field col-lg-6 ">
+        <input id="company" class="input-text js-input" type="text" required>
+        <label class="label" for="company">Company Name</label>
+     </div>
+      <div class="form-field col-lg-6 ">
+        <input id="phone" class="input-text js-input" type="text" required>
+        <label class="label" for="phone">Contact Number</label>
+     </div>
+     <div class="form-field col-lg-12">
+        <input id="message" class="input-text js-input" type="text" required>
+        <label class="label" for="message">Message</label>
+     </div>
+     <div class="form-field col-lg-12" style="margin-bottom: 50px;">
+        <input class="submit-btn" type="submit" value="Submit">
+     </div>
+  </form>
+</section>

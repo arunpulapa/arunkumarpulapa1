@@ -56,9 +56,19 @@ ul {
     margin-bottom: 30px;
     background: linear-gradient(30deg, #fa7c30 30%, rgba(0, 0, 0, 0) 30%), url('../../assets/imagesss.jpeg');
   }
+  .link{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
 
+.link:hover{
+color: blue;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
-
+.card{
+      border-radius: 20px !important;
+  background: linear-gradient(102deg, rgba(4, 123, 221, 0.50) 2.9%, rgba(103, 118, 221, 0.50) 31.07%, rgba(94, 104, 170, 0.50) 67.79%, rgba(65, 72, 118, 0.50) 97.29%);
+}
 
 
   .image-container {

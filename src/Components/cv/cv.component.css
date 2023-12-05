@@ -85,3 +85,7 @@ fa-icon{
     /* background-color: cadetblue; */
     background: linear-gradient(-70deg, red 30%, rgba(0, 0, 0, 0) 30%), url('../../assets/imagesss.jpeg');
   }
+  h5{
+    font-size: 18px;
+    font-weight: 600;
+  }
